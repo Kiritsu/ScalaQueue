@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-Cette implémentation d'une queue (First In, First Out) en scala a la particularité d'être composée de deux sous-listes. Par défaut, seule la liste `in` est utilisée lors d'ajouts d'éléments dans la queue. On peut donc très rapidement récupérer le dernier élément inséré. Lorsque l'on dépile, on utiliser la seconde liste `out` qui devient, à chaque fois qu'elle est vide, l'inverse de `in`.
+Cette implémentation d'une queue (First In, First Out) en scala a la particularité d'être composée de deux sous-listes. Par défaut, seule la liste `in` est utilisée lors d'ajouts d'éléments dans la queue. On peut donc très rapidement récupérer le dernier élément inséré. Lorsque l'on dépile, on utilise la seconde liste `out` qui devient, à chaque fois qu'elle est vide, l'inverse de `in`.
 
 Par exemple, de base, notre Queue d'entiers est vide :
 `Queue(Nil, Nil)`
